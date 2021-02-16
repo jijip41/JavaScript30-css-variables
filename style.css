@@ -1,0 +1,40 @@
+:root {
+  --background-color: #1a237e;
+  --white-color: white;
+  --main-font: 'Ubuntu', sans-serif;
+  --spacing: 20px;
+  --base-color: #ffc600;
+  --blur: 20px;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--main-font);
+  text-align: center;
+}
+
+.title {
+  color: var(--white-color);
+  display: inline;
+}
+
+.h1 {
+  color: var(--base-color);
+}
+
+.tool {
+  padding: var(--spacing);
+  color: var(--white-color);
+}
+
+p {
+  display: inline;
+}
+
+.image {
+  background-color: var(--base-color);
+  padding: var(--spacing);
+  width: 600px;
+  height: auto;
+  filter: blur(var(--blur));
+}
